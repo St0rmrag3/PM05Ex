@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ExamModelContainer" CdmEntityContainer="ExamEntities">
+    <EntitySetMapping Name="FizLica">
+      <EntityTypeMapping TypeName="ExamModel.FizLica">
+        <MappingFragment StoreEntitySet="FizLica">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Inn" ColumnName="Inn" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Pol" ColumnName="Pol" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IdManager" ColumnName="IdManager" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Manager">
+      <EntityTypeMapping TypeName="ExamModel.Manager">
+        <MappingFragment StoreEntitySet="Manager">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="YurLica">
+      <EntityTypeMapping TypeName="ExamModel.YurLica">
+        <MappingFragment StoreEntitySet="YurLica">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Inn" ColumnName="Inn" />
+          <ScalarProperty Name="SokrNaim" ColumnName="SokrNaim" />
+          <ScalarProperty Name="Addres" ColumnName="Addres" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IdManager" ColumnName="IdManager" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
