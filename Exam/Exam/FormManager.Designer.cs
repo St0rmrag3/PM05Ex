@@ -34,8 +34,6 @@
             this.MiddleName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LastName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Email = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.labelFirstName = new System.Windows.Forms.Label();
             this.labelMiddleName = new System.Windows.Forms.Label();
             this.labelLastName = new System.Windows.Forms.Label();
@@ -59,9 +57,7 @@
             this.FirstName,
             this.MiddleName,
             this.LastName,
-            this.Email,
-            this.columnHeader1,
-            this.columnHeader2});
+            this.Email});
             this.listViewManager.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewManager.FullRowSelect = true;
             this.listViewManager.GridLines = true;
@@ -97,14 +93,6 @@
             // 
             this.Email.Text = "Email";
             this.Email.Width = 152;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "ФизЛица";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Юрлица";
             // 
             // labelFirstName
             // 
@@ -275,8 +263,6 @@
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonDel;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.Label labelZagolovok;
     }
 }
